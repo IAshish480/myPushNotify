@@ -1,0 +1,54 @@
+{
+  "_from": "mypushnotify",
+  "_id": "mypushnotify@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-gZFbDk28qJ/HOpAfF6sjeCkIp6bIpbYdOLuk8zhJwKLIjHs1Y23e8oDzdLavtGwug8jfv5I8dIQjgsHdcD64kA==",
+  "_location": "/mypushnotify",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mypushnotify",
+    "name": "mypushnotify",
+    "escapedName": "mypushnotify",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mypushnotify/-/mypushnotify-1.0.2.tgz",
+  "_shasum": "fb98bb22cdda8e0c957d800342a0ea963e860380",
+  "_spec": "mypushnotify",
+  "_where": "C:\\Users\\ashish.agarwal\\Desktop\\projectDirectory\\tableTestProject",
+  "author": {
+    "name": "Ashish"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@angular/service-worker": "^6.1.10"
+  },
+  "deprecated": false,
+  "description": "push notification",
+  "keywords": [
+    "push",
+    "notifications",
+    "sending",
+    "push-notifications",
+    "Push Notification",
+    "Push-Notification"
+  ],
+  "license": "ISC",
+  "main": "dist/public-api.js",
+  "name": "mypushnotify",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "dist/public-api.d.ts",
+  "version": "1.0.2"
+}
